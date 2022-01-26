@@ -209,6 +209,14 @@ html, body{
 .dark h3{
     color: #fff;
 }
+.dark .item{
+    width: 40%;
+    margin-top: 45px;
+}
+.dark{
+    align-items: center !important;
+    justify-content: space-evenly !important;
+}
 .dt{
     color: #fff;
 }
@@ -239,7 +247,6 @@ html, body{
 }
 .item p{
     font-weight: 400;
-    letter-spacing: 2px;
     font-size: 15px;
     color: rgba(0,0,0,.5);
 }
@@ -253,7 +260,6 @@ html, body{
     display: flex;
     padding: 10px;
     flex-wrap: wrap;
-    align-items: center;
     height: calc(100% - 20px);
     justify-content: space-between;
 }
@@ -331,6 +337,12 @@ html, body{
     }
     .item{
         width: 100%;
+    }
+    .dark .item{
+        width: 100%;
+    }
+    .dark{
+        justify-content: space-around;
     }
   }
   @media only screen and (max-width: 1080px) {

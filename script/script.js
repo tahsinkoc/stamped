@@ -5,6 +5,9 @@ for (let index = 0; index < navigator.length; index++) {
             navigator[j].classList.remove('active')
         }
         navigator[index].classList.add('active')
+        openableMenu.style.height = '0'
+        hasBeenClicked = !hasBeenClicked
+        opMenu.classList.remove('opened')
     })
 }
 
@@ -34,3 +37,12 @@ opMenu.addEventListener('click', () => {
         hasBeenClicked = !hasBeenClicked
     }
 })
+
+// let cc = document.getElementsByClassName('cc')
+// for (let h = 0; h < cc.length; h++) {
+//     const element = array[h];
+//     element.addEventListener('click', () => {
+//         openableMenu.style.height = '0'
+//     })
+    
+// }
