@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none !important;
+    font-family: 'Raleway', sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.logo img{
+    width: 196.5px;
+    height: 73.5;
+}
+/* .logo{
+    width: 200px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.left a{
+    float: right;
+    padding: 10px;
+    margin-right: 45px;
+}
+.right a{
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+}
+.bar a:hover{
+    color: rgb(255, 255, 255);
+}
+.active{
+    color: rgb(255, 255, 255) !important;
+}
+.bar a{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255, .7);
+}
+.bar{
+    width: 449px;
+}
+.navbar-content{
+    max-width: 1080px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-o{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    position: absolute;
+}
+/*NAVBAR ON SC*/
+.navbar-on-sc .nav-cont-on-sc a:hover{
+    color: rgb(255, 255, 255);
+}
+.navbar-on-sc .nav-cont-on-sc a{
+    padding: 10px;
+    margin: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255, .7);
+}
+.navbar-on-sc .nav-cont-on-sc{
+    margin: auto;
+    text-align: center;
+    max-width: 1080px;
+}
+.navbar-on-sc{
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    z-index: 99999;
+    position: fixed;
+    transition: .4s ease-in-out all;
+    background-color: rgb(0, 0, 0);
+}
+
+/* content section */
+.ct{
+    margin: 25px;
+    color: #fff;
+}
+.content-keeper h1{
+    font-size: 72px;
+}
+.content-keeper h3{
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.content-keeper{
+    height: 100%;
+    margin: auto;
+    display: flex;
+    max-width: 1080px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.filter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.container-w{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rosybrown;
+    background-image: url(./img/background.jpg);
+}
+.cont-p img{
+    width: 350px;
+    height: 100%;
+    background-color: royalblue;
+}
+.cont-t{
+    color: rgb(87, 87, 87);
+    padding: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+.cont-pt{
+    display: flex;
+    height: 350px;
+    margin: 50px auto;
+    max-width: 1080px;
+}
+.l-pac{
+    width: 80%;
+    height: 100%;
+    padding: 25px;
+    color: rgb(75, 75, 75);
+}
+.r-pac h3{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.r-pac p{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.r-pac{
+    width: 20%;
+    height: 100%;
+    padding: 25px;
+}
+.pac{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+.container-s{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    padding: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.carousel-cont{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: rgb(17, 112, 107);
+}
+.logo-section img{
+    height: 98px;
+    width: 262px;
+}
+.logo-section{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-menu{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.dark .item h5{
+    color: #ffff;
+}
+.dark .item p{
+    color: #ffff;
+}
+.dark h3{
+    color: #fff;
+}
+.dt{
+    color: #fff;
+}
+#fixedMenu{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./img/fired_ice.jpg);
+}
+.cat-title h3{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: .05em;
+}
+.cat-title{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+.price{
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.item h5{
+    font-size: 1.1em;
+    font-weight: 700;
+    color: rgba(0,0,0,.5);
+}
+.item p{
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: rgba(0,0,0,.5);
+}
+.item{
+    margin: 10px;
+    width: 250px;
+    position: relative;
+}
+.menu-items{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: calc(100% - 20px);
+    justify-content: space-between;
+}
+.category-box{
+    margin: auto;
+    min-height: 250px;
+    max-width: 1080px;
+}
+/*ScrollBar*/
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(51, 51, 51);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(53, 53, 53);
+  }
+.bars{
+    left: 5px;
+    top: 5px;
+    position: fixed;
+    z-index: 999999;
+    visibility: hidden;
+    background-color: rgb(0, 0, 0);
+}
+.menu-openable a:hover{
+    color: lightcyan;
+}
+.menu-openable a{
+    color: #fff;
+    display: block;
+    margin: 25px;
+    font-size: 25px;
+    position: relative;
+}
+.menu-openable{
+    width: 100%;
+    height: 0;
+    text-align: center;
+    overflow: hidden;
+    z-index: 9999;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    position: fixed;
+    background-color: rgb(15, 15, 15);
+    transition: all .4s ease-in-out;
+}
+  /*Responsive*/
+  @media only screen and (max-width: 600px) {
+    .l-pac, .r-pac{
+        width: 100%;
+    }
+    .pac{
+        flex-direction: column;
+    }
+    .content-keeper h1{
+        font-size: 50px;
+    }
+    .content-keeper{
+        text-align: center;
+    }
+    .item{
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1080px) {
+    .navbar-on-sc .nav-cont-on-sc a{
+        margin: 25px;
+    }
+    .bar{
+        display: none;
+    }
+    .navbar-content{
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .navbar-on-sc{
+        display: none;
+    }
+    .bars{
+        visibility: visible;
+    }
+}
