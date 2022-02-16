@@ -205,13 +205,10 @@ html, body{
     background-color: rgb(255, 255, 255);
 }
 .dark .item h5{
-    color: #ffff;
 }
 .dark .item p{
-    color: #ffff;
 }
 .dark h3{
-    color: #fff;
 }
 .dark .item{
     width: 40%;
@@ -219,7 +216,7 @@ html, body{
 }
 .dark{
     align-items: center !important;
-    justify-content: space-evenly !important;
+    justify-content: space-between !important;
 }
 #fixedMenu{
     justify-content: center;
@@ -334,7 +331,7 @@ html, body{
 }
 .band{
     width: 100%;
-    height: 70%;
+    padding: 45px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -363,6 +360,7 @@ html, body{
     width: 100%;
     height: 100px;
     display: flex;
+    margin: 50px auto 0;
     align-items: center;
     justify-content: center;
     background-color: rgb(36, 36, 36);
