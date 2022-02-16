@@ -224,7 +224,6 @@ html, body{
     display: flex;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(./img/fired_ice.jpg);
 }
 .cat-title h3{
     bottom: 20px;
