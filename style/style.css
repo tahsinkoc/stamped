@@ -300,7 +300,7 @@ html, body{
     height: 70px;
     display: flex;
     margin: 5px auto;
-    max-width: 1080px;
+    width: 100%;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -330,8 +330,8 @@ html, body{
 }
 .band{
     width: 100%;
-    padding: 45px;
     display: flex;
+    padding: 45px 0;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -489,6 +489,12 @@ html, body{
     }
     .dt h3{
         max-width: 95%;
+    }
+    .del-box .del-item {
+        margin: auto;
+    }
+    .del-box{
+        justify-content: space-evenly;
     }
   }
   @media only screen and (max-width: 900px) {
