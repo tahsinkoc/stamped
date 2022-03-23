@@ -60,9 +60,10 @@ html, body{
     justify-content: space-between;
 }
 .navbar-o{
+    top: 0;
     width: 100%;
     height: 80px;
-    top: 0;
+    z-index: 99999;
     position: absolute;
 }
 /*NAVBAR ON SC*/
@@ -446,6 +447,30 @@ html, body{
     background-color: rgb(15, 15, 15);
     transition: all .4s ease-in-out;
 }
+.filter-for-vid{
+    width: 100%;
+    z-index: 98;
+    display: flex;
+    min-height: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.vide{
+    min-width: 100%;
+    min-height: 100%;
+}
+.container-vv{
+    z-index: 99;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
   /*Responsive*/
   @media only screen and (max-width: 600px) {
     .l-pac, .r-pac{
@@ -498,6 +523,19 @@ html, body{
     }
   }
   @media only screen and (max-width: 900px) {
+    .container-vv{
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .vide{
+        z-index: 97;
+        min-width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .filter-for-vid{
+        min-height: 100%;
+    }
     .navbar-on-sc{
         display: none;
     }
